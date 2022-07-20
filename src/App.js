@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import LandingPage from './pages/LandingPage';
 import GamePage from './pages/GamePage';
 import RulesPage from'./pages/RulesPage';
+import IntroductionPage from'./pages/IntroductionPage';
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 
 
@@ -12,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage/>} />
+          <Route path="intro" element={<IntroductionPage/>} />
           <Route path="rules" element={<RulesPage/>} />
           <Route path="game" element={<GamePage/>} />
         </Routes>

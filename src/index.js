@@ -21,6 +21,10 @@ export const stick15 = require('./assets/stick15.png')
 export const dog = require('./assets/dog.png')
 export const dogsad = require('./assets/dogsad.png')
 export const dogwagging = require('./assets/dogwagging.png')
+export const bone = require('./assets/bone.png')
+export const stickArr = [stick1, stick2, stick3, stick4,
+stick5, stick6, stick7, stick8, stick9, stick10, stick11,
+stick12, stick13, stick14, stick15]
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
