@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4ba75093.css",
+    "main.js": "/static/js/main.fd17f2e6.js",
+    "static/js/787.9ff1877b.chunk.js": "/static/js/787.9ff1877b.chunk.js",
+    "static/media/dogwagging.png": "/static/media/dogwagging.c60d5072b4a3a085865c.png",
+    "static/media/dog.png": "/static/media/dog.5c3c6e5b02a78e77b5ec.png",
+    "static/media/dogsad.png": "/static/media/dogsad.983e7b67c8e32dbe4672.png",
+    "static/media/stick13.png": "/static/media/stick13.7c3acd13141479439b92.png",
+    "static/media/stick12.png": "/static/media/stick12.12ad516e0522378b381f.png",
+    "static/media/stick5.png": "/static/media/stick5.8901643d1d84261dc7a4.png",
+    "static/media/stick6.png": "/static/media/stick6.62384cf78b3b0b995ac7.png",
+    "static/media/stick2.png": "/static/media/stick2.8ab38eb4c7a7619ece86.png",
+    "static/media/stick14.png": "/static/media/stick14.6f680a9ba5f2fe1a58b8.png",
+    "static/media/stick3.png": "/static/media/stick3.5d89f74aef790ed54b56.png",
+    "static/media/stick8.png": "/static/media/stick8.b5166ab0abfb48d45ca7.png",
+    "static/media/stick15.png": "/static/media/stick15.0d143bcc9ef7dfef3b19.png",
+    "static/media/stick1.png": "/static/media/stick1.2e06cc7a87102ec7ccaa.png",
+    "static/media/stick10.png": "/static/media/stick10.b3bdd806b41d160611f5.png",
+    "static/media/stick11.png": "/static/media/stick11.4bcc5f2086f8c20d7734.png",
+    "static/media/stick4.png": "/static/media/stick4.5e47007ef584a33c4cd0.png",
+    "static/media/stick7.png": "/static/media/stick7.a2ff4bde9a3dcfa3c9c9.png",
+    "static/media/stick9.png": "/static/media/stick9.556ddce69d5c5e494017.png",
+    "index.html": "/index.html",
+    "main.4ba75093.css.map": "/static/css/main.4ba75093.css.map",
+    "main.fd17f2e6.js.map": "/static/js/main.fd17f2e6.js.map",
+    "787.9ff1877b.chunk.js.map": "/static/js/787.9ff1877b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ba75093.css",
+    "static/js/main.fd17f2e6.js"
+  ]
+}
