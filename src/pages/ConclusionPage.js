@@ -39,7 +39,7 @@ const previousSticks = (
         <div className = 'buttoncontainer'>
         {stickImages[selectedStick][0] >= maxRating ? <p className = 'rules'>Congrats! You found the best stick!</p> : <p className = 'rules'>The stick you chose was not the best :(</p>}
         <button className = 'nextButtonSmall inline' onClick={()=> {navigate('/rules');window.location.reload(false);}}>Play again</button>
-        <button className = 'nextButtonSmall inline' onClick={()=> {navigate('/learn')}}>Learn more</button>
+        <button className = 'nextButtonSmall inline' onClick={()=> {navigate('/learn');window.location.reload(false);}}>Learn more</button>
         </div>
       </div>
     </div>
