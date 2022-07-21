@@ -8,11 +8,11 @@ import '../App.css';
 
 
 
-function SmallStick(props) {
+function ConclusionStick(props) {
     return(
-        <div className = 'transparent'>
-            <img src = {stickArr[props.stick]} className = 'imgsmall'/>
-            <div className = 'centercontent'>
+        <div>
+            <img src = {stickArr[props.stick]} className = 'conclusionimg'/>
+            <div className='center'>
                 <p className='boneratingsmall'>{props.rating}</p>
                 <img src = {bone} className = 'boneimgsmall'/>
             </div>
@@ -20,4 +20,4 @@ function SmallStick(props) {
     )
 }
 
-export default SmallStick;
+export default ConclusionStick;

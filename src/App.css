@@ -6,6 +6,15 @@
   margin-right: auto;
 }
 
+.dogsmall {
+  width: 160px;
+  height: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
 .subimg {
   width: 200px;
   height: 200px;
@@ -105,4 +114,62 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.buttoncontainer {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.imgsmall {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+
+.boneratingsmall {
+  font-family: 'Cormorant SC';
+  font-size: 18px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.boneimgsmall {
+  width:40px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.transparent {
+  opacity: 0.8
+}
+
+.absolute-top {
+  position: absolute;
+  top: 5%;
+}
+
+.absolute-left {
+  left: 10%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.conclusionimg {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.marginbottom {
+  margin-bottom: 8px;
 }

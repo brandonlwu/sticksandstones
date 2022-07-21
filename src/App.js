@@ -3,21 +3,28 @@ import LandingPage from './pages/LandingPage';
 import GamePage from './pages/GamePage';
 import RulesPage from'./pages/RulesPage';
 import IntroductionPage from'./pages/IntroductionPage';
+import LearnPage from './pages/LearnPage';
+import ConclusionPage from './pages/ConclusionPage'
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import { SticksProvider } from './SticksContext';
 
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<LandingPage/>} />
-          <Route path="intro" element={<IntroductionPage/>} />
-          <Route path="rules" element={<RulesPage/>} />
-          <Route path="game" element={<GamePage/>} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <SticksProvider>
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<LandingPage/>} />
+            <Route path="intro" element={<IntroductionPage/>} />
+            <Route path="rules" element={<RulesPage/>} />
+            <Route path="game" element={<GamePage/>} />
+            <Route path="conclusion" element={<ConclusionPage/>} />
+            <Route path="learn" element={<LearnPage/>} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </SticksProvider>
   );
 }
 
