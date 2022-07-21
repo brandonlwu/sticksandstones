@@ -7,7 +7,7 @@ let navigate = useNavigate();
   return (
     <div className="container">
       <div className = 'imgcontainer'>
-        <p className = 'title'>haha you dumbbbb! but jk coming soon</p>
+        <p className = 'title'>37% rule proof and thoughts coming soon</p>
         <img src = {dogwagging} className = 'mainimg'/>
         <button className = 'nextButtonSmall'
                   onClick={()=> {navigate('/');}}>

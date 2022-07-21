@@ -26,16 +26,16 @@ function GamePage() {
 
   const previousSticks = (
     <div className = 'absolute-top'>
-    <p className='rules'>Previous Sticks</p>
+    <p className='rules'>Passed Sticks</p>
       <div className='flexbox'>
-      <div>
+      <div className = 'stickcontainer'>
         {stick < 5 ? 
         stickImages.slice(0,stick).map((elem) => <SmallStick rating = {elem[0]} stick = {elem[1]}/>)
         :
         stickImages.slice(0,5).map((elem) => <SmallStick rating = {elem[0]} stick = {elem[1]}/>)
         }
       </div>
-      <div>
+      <div className = 'stickcontainer'>
         {stick >= 5 ? 
         stickImages.slice(5,stick).map((elem) => <SmallStick rating = {elem[0]} stick = {elem[1]}/>)
         :
@@ -50,12 +50,11 @@ function GamePage() {
       <div className = 'imgcontainer'>
         <p className = 'title'>You come across stick {stick+1}</p>
         <Stick rating = {stickImages[stick][0]} stick = {stickImages[stick][1]}/>
-        {previousSticks}
         <img src = {dogwagging} className = 'dogsmall'/>
         <div>
         <button className = 'nextButtonSmall marginbottom' onClick = {()=> updateGameState()}>Next stick</button>
         <button className = 'nextButtonSmall' onClick = {()=> {updatedSelectedStick(stick); navigate('/conclusion')}}>Choose this stick</button>
-        
+        {previousSticks}
         </div>
       </div>
     </div>
