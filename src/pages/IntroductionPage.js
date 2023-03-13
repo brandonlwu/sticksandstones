@@ -16,9 +16,9 @@ function IntroductionPage() {
                 He wants to find the best stick he can possibly find and today you are going to help him out.
                   </p>
                 <img src = {stick1} className = 'subimg'/>
-                <button className = 'nextButtonSmall'
+                <button className = 'nextButtonSmall marginbottom'
                   onClick={()=> {navigate('/rules');}}>
-                      Let's go →
+                      Sounds good! Let's go →
                 </button>
             </div>
         </div>

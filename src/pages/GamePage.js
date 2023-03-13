@@ -35,6 +35,7 @@ function GamePage() {
     <p className='rules'>Sticks you passed</p>
       <div className='stickflexbox'>
       <div className = 'stickitem'>
+
         {stick < 5 ? 
         stickImages.slice(0,stick).map((elem) => <SmallStick rating = {elem[0]} stick = {elem[1]}/>)
         :

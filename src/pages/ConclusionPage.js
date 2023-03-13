@@ -11,9 +11,16 @@ let navigate = useNavigate();
 var {stickImages, floor, variability, stick, updateStick, selectedStick, updatedSelectedStick} = useSticks()
 
 const stickRatingArray = stickImages.map((elem) => elem[0])
+let bestStickSpot = 0
 const maxRating = Math.max(...stickRatingArray)
+for (let i = 0; i < 10; i++) {
+  if (stickRatingArray[i] == maxRating) {
+    bestStickSpot = i
+  }
+}
 console.log(stickRatingArray)
 console.log(maxRating)
+console.log(bestStickSpot+1)
 
 const previousSticks = (
     <div className = 'absolute-top'>
