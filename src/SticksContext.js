@@ -17,7 +17,7 @@ export { SticksContext };
 
 export function SticksProvider({children}) {
     const [stick, updateStick] = useState(0)
-    const [selectedStick, updatedSelectedStick] = useState(0)
+    const [selectedStick, updatedSelectedStick] = useState(null)
     var value = { stickImages, floor, variability, stickImages, stick, updateStick, selectedStick, updatedSelectedStick}
   return(
     <SticksContext.Provider value = {value}>

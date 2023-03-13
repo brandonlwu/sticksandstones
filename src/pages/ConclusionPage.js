@@ -34,12 +34,12 @@ const previousSticks = (
       <div className = 'imgcontainer'>
         <p className = 'title'>You chose stick {selectedStick+1}</p>
         {stickImages[selectedStick][0] >= maxRating ? <img src = {dogwagging} className = 'mainimg'/>: <img src = {dogsad} className = 'mainimg'/>}
-        <ConclusionStick rating = {stickImages[stick][0]} stick = {stickImages[stick][1]}/>
+        <ConclusionStick rating = {stickImages[selectedStick][0]} stick = {stickImages[selectedStick][1]}/>
         {previousSticks}
         <div className = 'buttoncontainer'>
-        {stickImages[selectedStick][0] >= maxRating ? <p className = 'rules'>Congrats! You found the best stick!</p> : <p className = 'rules'>The stick you chose was not the best :(</p>}
-        <button className = 'nextButtonSmall inline' onClick={()=> {navigate('/rules');window.location.reload(false);}}>Play again</button>
-        <button className = 'nextButtonSmall inline' onClick={()=> {navigate('/learn');window.location.reload(false);}}>Learn more</button>
+        {stickImages[selectedStick][0] >= maxRating ? <p className = 'rules'>Congrats! You found the best stick!</p> : <p className = 'rules'>You didn't choose the best stick :(</p>}
+        <button className = 'nextButtonSmall' onClick={()=> {navigate('/rules');window.location.reload(false);}}>Play again</button>
+        <button className = 'nextButtonSmall' onClick={()=> {navigate('/learn');window.location.reload(false);}}>How should Ainu choose his sticks?</button>
         </div>
       </div>
     </div>

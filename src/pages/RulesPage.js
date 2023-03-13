@@ -13,12 +13,11 @@ function RulesPage() {
             <div>
                 <p className = 'rules'>As you walk on this trail with Alfred, you will encounter 10 sticks.</p>
                 <ul>
-                  <li className='rules bullet'>The goal of the game is the find the best stick possible for Alfred.</li>
-                  <li className='rules bullet'>The stick's quality is determined by Alfred's rating of the stick.</li>
-                  <li className='rules bullet'>The higher the rating, the better the stick.</li>
-                  <li className='rules bullet'>With each stick, you have the choice of keeping it or passing on.</li>
-                  <li className='rules bullet'>Once you choose to keep a stick, the game is over.</li>
-                  <li className='rules bullet'>Once you pass a stick, you can't go back.</li>
+                  <li className='rules bullet'>The goal of the game is the find the best possible stick for Alfred.</li>
+                  <li className='rules bullet'>Each stick will have a number which represents its quality</li>
+                  <li className='rules bullet'>The higher the number, the better quality of the stick.</li>
+                  <li className='rules bullet'>Once Alfred chooses a stick, he has to stick with it (even if a better stick comes along in the future)</li>
+                  <li className='rules bullet'>Once you pass a stick, you can't go back (so who knows, the first stick you come across could be the best)</li>
                   <li className='rules bullet'>The quality of each stick is random.</li>
                 </ul>
             </div>

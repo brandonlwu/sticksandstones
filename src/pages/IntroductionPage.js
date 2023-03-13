@@ -12,9 +12,9 @@ function IntroductionPage() {
                 <img src = {dogwagging} className = 'mainimg'/>
             </div>
             <div>
-                <p className = 'rules'>Say hello to Alfred the Ainu! Alfred lovesssssss sticks but he is an extremely picky dog.
-                Today your task is to help him find the best stick he possibly can. If he likes the stick, he will file
-                your taxes for you. If you fail, you will be sacrificed. immediately. </p>
+                <p className = 'rules'>Say hello to Alfred the Ainu! Alfred loves sticks but he is also an extremely picky dog.
+                He wants to find the best stick he can possibly find and today you are going to help him out.
+                  </p>
                 <img src = {stick1} className = 'subimg'/>
                 <button className = 'nextButtonSmall'
                   onClick={()=> {navigate('/rules');}}>
