@@ -12,15 +12,16 @@ let navigate = useNavigate();
         <p className = 'rules'>
           At first glance this game appears random. There's no knowing at which point the best stick will appear!<br></br><br></br>
           
-          But Ainu is actually facing a classic explore-exploit problem. In other words, Ainu must decide how much time he wants to
-          spend exploring his options and at at what he wants to start exploiting his options. For Ainu, "exploring" would mean 
+          But Ainu is actually facing a classic explore-exploit problem. In other words, Ainu must decide how much time he will
+          spend exploring his options and at what point he will start exploiting his options. For Ainu, "exploring" would mean 
           encountering as many sticks as possible to gain a better sense of what type of sticks he likes. "Exploiting" would mean
           making a decision and actually enjoying one of the sticks he comes across. But Ainu can't go back to sticks he has already
           passed so the dilemma becomes: when should he stop exploring and start exploiting.
           <br></br><br></br>
           
-          Let's say Ainu never explores and picks the first stick he encounters. In this case, he never gets the chance to explore 
-          and see what's out there. There might be sticks in the future that he would actually like a lot more, but he'll never encounter. 
+          Let's say Ainu never explores and picks the first stick he encounters. He never gets the chance to explore 
+          and gain a sense of what he likes and doesn't like. There could very well be sticks in the future that he would actually like a lot more, 
+          but he'll never encounter. 
           
           <br></br><br></br>
 
@@ -42,15 +43,15 @@ let navigate = useNavigate();
           chooses. But if we were to play this game repeatedly, this strategy would have the highest odds of getting Ainu the best stick.
           <br></br><br></br>
 
-          What is its application? Some Mathemeticians suggest the 37% rule for any major decision you make in your life, such as buying a home 
-          or relationships. Most people don't know what they are looking for in a home or a relationship, until they've been had the chance to explore
-          and understand what they like. So according to the 37% rule if you have 100 home viewings lined up, you would purely observe the first 37
+          What is its application? Some mathemeticians suggest the 37% rule for any major decision you make in your life, such as buying a home 
+          or getting married. Most people don't know what they are looking for in a home or a relationship until they've had the chance to explore
+          and gain a sense of what they like. So according to the 37% rule if you have 100 home viewings lined up, you would purely observe the first 37
           and immediately purchase the next best home that you come across. Or say if you plan to have settled down by 40 and start dating in high school,
           don't accept any suitors until around 25.
           <br></br><br></br>
 
-          Obviously, real life is much more complicated and there is never one-size-fits-all rule. My high school math teacher met his wife in elementary
-          school and they've been married for over 70 years. I'm pretty sure he wasn't thinking of the 37% rule. But regardless, it's
+          Obviously, real life is much more complicated and there is never one-size-fits-all rule. My high school math teacher first met his wife in elementary
+          school and they've been married for over 50 years now. I'm pretty sure he wasn't thinking of the 37% rule. Regardless, it is
           an interesting thought concept that can factor into your decision making process. 
           <br></br><br></br>
 
