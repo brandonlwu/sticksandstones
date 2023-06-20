@@ -28,7 +28,7 @@ let navigate = useNavigate();
           Conversely, if Ainu spends all his time exploring and never makes a decision until the last possible stick, there's a good chance 
           he will have passed the stick that he ends up liking the most. <br></br><br></br>
 
-          So the question then is how does Ainu optimize his odds of choosing the best possible stick? Mathemeticians have an answer and it's
+          So the question then is how does Ainu optimize his odds of choosing the best possible stick? Mathameticians have an answer and it's
           called the 37% rule.
           <br></br><br></br>
 
@@ -43,7 +43,7 @@ let navigate = useNavigate();
           chooses. But if we were to play this game repeatedly, this strategy would have the highest odds of getting Ainu the best stick.
           <br></br><br></br>
 
-          What is its application? Some mathemeticians suggest the 37% rule for any major decision you make in your life, such as buying a home 
+          What is its application? Some mathematicians suggest the 37% rule for any major decision you make in your life, such as buying a home 
           or getting married. Most people don't know what they are looking for in a home or a relationship until they've had the chance to explore
           and gain a sense of what they like. So according to the 37% rule if you have 100 home viewings lined up, you would purely observe the first 37
           and immediately purchase the next best home that you come across. Or say if you plan to have settled down by 40 and start dating in high school,
